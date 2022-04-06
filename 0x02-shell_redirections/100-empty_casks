@@ -1,3 +1,2 @@
-echo '#!/bin/bash'
-echo 'find . -empty -print "%f\n"'
-
+#!/bin/bash
+find . -empty -printf "%f\n"
